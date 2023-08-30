@@ -4,7 +4,7 @@
     <title>Quick Lab 6 - CSS Selectors</title>
     <style>
         em { color: fuchsia; }     /** Anything emphasised **/
-        p { color: midnightblue; }        /** Anything emphasised inside a paragraph **/
+        p em{ color: midnightblue; }        /** Anything emphasised inside a paragraph **/
         body > footer{ color: purple; }      /** Any footer that is a direct child of body **/
         h1 + p{ color: teal; }        /** Any paragraph that is a direct sibling of a heading 1 **/
         h1 ~ p{ color: yellow; }      /** Any paragraph that is a younger sibling of a heading 1 **/
